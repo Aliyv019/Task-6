@@ -285,6 +285,10 @@ text-align: center;
     flex-direction: column;
     align-items: end;
     margin-right: 12px;
+    margin-top: -30px;
+}
+.card{
+    margin-right: 30px;
 }
 .icon img{
     height: 34px;
@@ -303,5 +307,69 @@ text-align: center;
 #card1_photo{
     width: 172px;
     margin: 49px;
-    margin-top: 0;
+    margin-right: 0;
+    margin-top: -43px;
+}
+.price{
+    display: flex;
+}
+.after_d{
+    color: rgb(219, 68, 68);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-right:  12px;
+}
+.before_d{
+    color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: line-through;
+opacity: 0.5;
+}
+.rating{
+    display: flex;
+}
+.rating p{
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+    margin: 0;
+}
+#card2_photo{
+    width: 191px;
+    height: 101px;
+    margin-left: 39px;
+}
+#card3_photo{
+    width: 170px;
+    height: 129px;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+#card4_photo{
+    width: 107px;
+    height: 180px;
+    margin-left: 81px;
+    margin-top: -60px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 135px;
+}
+#card4{
+    margin: 0;
 }
