@@ -1,0 +1,264 @@
+.head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.head1 p{
+    color: rgb(250, 250, 250);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: center;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+}
+.head1 a{
+    color: rgb(250, 250, 250);
+font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+text-decoration-line: underline;
+}
+header{
+    background-color: black;
+    padding: 12px;
+    display: flex;
+    justify-content: center ;
+}
+.lang a{
+    color: rgb(250, 250, 250);
+    text-decoration-line: none;
+    margin-left: 231px;
+    align-items: right;
+}
+.lang img{
+    width: 24px;
+    height: 24px;
+}
+nav{
+position: absolute;
+width: 1170px;
+height: 38px;
+left: 135px;
+right: 135px;
+top: 88px;
+bottom: 5776px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+}
+nav h1{
+    margin-right: 190px;
+    margin-bottom: 0;
+}
+nav ul{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+list-style: none;
+margin: 0;
+}
+nav li{
+    margin-right: 48px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.input{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+    width: 243px;
+    height: 38px;
+}
+.input img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    margin-left: 211px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.input input{
+    border: none;
+    background-color: rgb(245, 245, 245);
+    width: 211px;
+    height: 24px;
+    outline: none;
+}
+.icons img{
+    width: 24px;
+    margin-left: 5px;
+}
+hr{
+    position: absolute;
+    top: 142.25px;
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+.sec2{
+    width: 368.25px;
+    height: 384px;
+    margin-top: 94.25px;
+    border-right: 1px solid lightgrey;
+}
+.categories{
+    margin-left: 125px;
+    
+    padding-top: 40px;
+}
+.categories ul{
+    list-style: none;
+
+}
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+.categories li{
+    padding-bottom: 16px;
+
+}
+.categories img{
+    width: 12px;
+}
+.img1{
+    margin-left: 59px;
+}
+.img2{
+    margin-left: 82px;
+}
+.sec3{
+    position: absolute;
+    left: 413px;
+    top: 135px;
+    width: 892px;
+    height: 344px;
+    background-color: black;
+}
+.iphone_series{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 58px;
+    margin-left: 64px;
+}
+.iphone_series p{
+    margin: 0;
+    margin-left: 24px;
+    text-align: center;
+}
+.iphone_series img{
+    width: 40px;
+}
+.voucher{
+    padding-top: 20px;
+    padding-left: 64px;
+}
+.voucher h1{
+    color: rgb(250, 250, 250);
+font-family: Inter;
+font-size: 48px;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: 4%;
+width: 294px;
+}
+.shopnow a{
+    color: white;
+    margin-right: 11.5px;
+    text-underline-offset: 7px;
+}
+.shopnow img{
+    width: 16.5px;
+}
+.shopnow{
+    margin-left: 67px;
+    margin-top: 22px;
+}
+.tabs{
+    margin-left: 353px;
+    margin-top: -70px;
+    z-index: 2;
+}
+.iphone{
+    width: 406px;
+    height: 332px;
+    
+}
+.sec3_2{
+    display: flex;
+    z-index: 1;
+}
+.sec3{
+    width: 892px;
+    height: 344px;
+    position: absolute;
+    top: 182px;
+    left: 413px;
+    right: 135px;
+    width: 802px;
+    height: 344px;
+}
+.rectangle{
+    background-color: rgb(219, 68, 68);    
+    width: 20px;
+    height: 40px;
+    border-radius: 4px;
+}
+.sec4{
+    margin-top: 140px;
+}
+.today p{
+    margin: 0;
+    color: rgb(219, 68, 68);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 16px;
+}
+.today{
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+}
+.time ul{
+    list-style: none;
+    display: flex;
+}
+.time p{
+    margin: 0;
+}
+
+
+.colon{
+    padding-top: 40px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.flash{
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+}
